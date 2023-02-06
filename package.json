@@ -1,0 +1,24 @@
+{
+  "name": "contador-faltas-web-familia",
+  "version": "1.0.0",
+  "description": "Pequeña aplicación en NodeJS para contar las faltas de cada asignatura",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hydradox/Contador-Faltas-Web-Familia.git"
+  },
+  "author": "Jaime Cantos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hydradox/Contador-Faltas-Web-Familia/issues"
+  },
+  "homepage": "https://github.com/Hydradox/Contador-Faltas-Web-Familia#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.6.3"
+  }
+}
